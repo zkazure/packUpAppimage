@@ -1,0 +1,24 @@
+#+title: Readme
+
+* Description
+This is a script to autopackup the Appimage file.
+I make this, because I can run the source appimage in the Fedora.
+And I don't know how to solve it.
+
+* How to use
+
+1. Make it executable.
+   #+begin_src shell
+chmod +x packUpAppimage.sh
+   #+end_src
+2. Pass an absolute path as a parameter. For example:
+   #+begin_src shell
+./packUpAppimage.sh ~/Download/example.appimage
+   #+end_src
+3. Find it in the =~/Applications=
+
+* Others
+This is only for the system which is x86_64. If you want to run this on your computer.
+Please add the correspond appimagetools file in =appimagetools=.
+
+You can find the tool file [[https://github.com/AppImage/appimagetool][here]].
